@@ -4,7 +4,7 @@
 ## 个人信息
 性别：男 / 出生年月：1995-11  
 学校专业：广东工业大学 计算机科学与技术专业 18届 本科 / 英语水平：CET6  
-Github：[https://github.com/hating](https://github.com/hating) （234 Stars，76 Forks）  
+Github：[https://github.com/hating](https://github.com/hating) （336 Stars，94 Forks）  
 技术专栏：[https://zhuanlan.zhihu.com/hackingsexy](https://zhuanlan.zhihu.com/hackingsexy)   
 
 ## 技能描述
@@ -19,11 +19,11 @@ Github：[https://github.com/hating](https://github.com/hating) （234 Stars，7
 - 拥有较强的团队意识，良好的沟通能力，以及拥有高度的责任感。  
 
 ## 项目经历、开源作品与文章
-### [Shakespeare-TheBlog](https://github.com/hating/Shakespeare-TheBlog)
-一个轻量级的个人博客。前端使用Vue.js处理用户界面交互，jQuery处理Ajax请求。后端使用Flask框架构建API，数据库使用MySQL。网站有完整的主页、文章页、后台登陆、发布文章、管理文章等功能。目前项目已获得5Stars，1Fork。
+### [Awesome-Github](https://github.com/hating/AwesomeGithub)
+使用Vue.js+Webpack做的纯前端项目，该项目调用Github API实时生成程序员/项目排名。优化难点在于首屏载入与Github API调用次数限制。我通过使用背景图片懒加载、静态文件CDN等方法加快了载入时间，通过localStorage减缓了API请求次数。项目已获得66 Stars，14 Forks，并且已上线（网址：[http://awesomegithub.com](http://awesomegithub.com)）。
 
 ### [ZhihuTrend](https://github.com/hating/ZhihuTrend)
-知乎趋势，用于展示当天知乎的热门问题。使用Scrapy对知乎用户、文章进行爬取，并通过正则表达式、XPath等工具提取内容，并将其存放到MySQL数据库中，再通过特定算法得到热门问题排序，最后通过网页进行展示。网站前端使用了Bootstrap、React.js等框架。目前该项目已获得187Stars，49Forks。基于这份数据，我采用BDP数据分析平台，对项目爬取到的用户数据进行分析，并发表文章：[知乎核心用户大数据报告](https://zhuanlan.zhihu.com/p/24960279)。目前该文章已获得11K+赞同，200+赞赏。
+知乎趋势，用于展示当天知乎的热门问题。使用Scrapy对知乎用户、文章进行爬取，并通过正则表达式、XPath等工具提取内容，并将其存放到MySQL数据库中，再通过特定算法得到热门问题排序，最后通过网页进行展示。网站前端使用了Bootstrap、React.js等框架。目前该项目已获得195 Stars，51 Forks。基于这份数据，我采用BDP数据分析平台，对项目爬取到的用户数据进行分析，并发表文章：[知乎核心用户大数据报告](https://zhuanlan.zhihu.com/p/24960279)。目前该文章已获得11K+赞同，200+赞赏。
 
 ### 《基于遗传算法的多目标代码混淆》项目的主力成员（ 2016-4 ~ 现在 ）
 在导师的带领下，我在此项目负责混淆算法的实现。项目当时遇到的困难是无法对AST（Abstract Syntax Tree）进行修改以及无法将代码从AST转换成可编译的字符串代码。我通篇阅读Antlr的API文档后确定了技术选型，并对Antlr进行二次开发解决了上述问题。同时我开源了一个JAVA变量名混淆器：[JavaObfuscator](https://github.com/hating/JAVAObfuscator)。目前该项目已是校级创新项目。
